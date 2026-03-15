@@ -69,5 +69,5 @@ Rails.application.configure do
 
   config.active_storage.service = :local
 
-  config.secret_key_base = ENV["SECRET_KEY_BASE"]
+  config.secret_key_base = ENV["SECRET_KEY_BASE"] || "ebfff4c42d1f2635b306f7f6b167be4cb504776d2e631763bbc41d7bd7b54927cb048c3b96da59cd2ca3bb7092b25f23ffb32f3fe2ca7a404636992ae9bf6db7"
 end
